@@ -1,0 +1,40 @@
+Descripción: 
+Instala PHP y convierte segundos en horas, minutos y segundos. Entiende la sintaxis, variables y constantes de PHP. Aprende operadores lógicos, aritméticos y relacionales. Realiza cálculos matemáticos y utilízalos en tu código PHP.
+
+Archivos de la clase:
+https://static.platzi.com/media/public/uploads/slides-del-curso-basico-php_74051b17-df0c-4355-845d-1322aa02e4b7.pdf
+
+Lecturas recomendadas:
+https://platzi.com/cursos/pensamiento-logico/
+https://platzi.com/blog/associates-platzi/
+
+Resumen
+Para aventurarnos en este viaje, primero tenemos que tener claros ciertos conocimientos básicos:
+
+¿Qué es programar?
+En palabras sencillas, es decirle a una máquina increíblemente obediente qué es lo que debe hacer.
+
+¿Qué es un algoritmo?
+Podemos visualizarlo como una lista de pasos ordenados que cualquier persona que los lea puede seguir y debe generar el mismo resultado siempre.
+
+¿Qué es un programa?
+Un algoritmo escrito con algún lenguaje de programación.
+Al estar escritos con algún lenguaje, las computadoras son capaces de seguir estos pasos.
+
+¿Qué lenguaje de programación elijo? 💻
+Hay varios con los que puedes empezar, por ejemplo:
+
+JavaScript
+Python
+C++
+Java
+Y, por supuesto, tenemos a PHP. Un buen lenguaje con el cual emprender nuestra aventura en la programación.
+
+¿Por qué comenzar con PHP? 🤔
+🧠Muy fácil de aprender. Porque ya existen cosas hechas, por tanto, solo se necesita implementarlas.
+💪Muy Flexible. Con este lenguaje puedes hacer tantas cosas que estamos propensos a caer en malas prácticas, por ello debemos aprender a evitarlas.
+📚Tiene una amplia documentación en español. En nuestro idioma existen muchos manuales e información de ayuda.
+💸Es muy demandado. Actualmente, se sigue buscando programadores de este lenguaje, ya sea para dar mantenimiento a sistemas existentes que usen PHP o incluso para nuevos programas. Sigue siendo muy bien pagado.
+✌️Tiene a Laravel y WordPress. Son herramientas muy populares y demandadas que basan su funcionamiento utilizando PHP. Están ahorran mucho trabajo al momento de crear páginas web.
+🗺Una gran parte de los sitios web lo ocupan. Por este motivo PHP NO ESTÁ MUERTO. 🤘😎
+Contribución creada por: Martín Álvarez con el aporte de Jorge Rafael Flores Meza.
