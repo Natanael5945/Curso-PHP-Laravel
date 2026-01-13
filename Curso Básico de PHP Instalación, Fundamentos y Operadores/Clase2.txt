@@ -1,0 +1,56 @@
+Lecturas recomendadas:
+https://es.wikipedia.org/wiki/PHP#Historia
+https://www.php.net/docs.php
+https://w3techs.com/technologies/details/pl-php
+https://www.seidengroup.com/2024/08/05/whats-new-exciting-in-php-on-ibm-i-in-2024/#:~:text=IBM%20i%20users%20enjoy%20easy,practices%2C%20to%20reduce%20technical%20debt.
+
+Resumen
+No, PHP no está muerto. PHP es la mayoría del internet y sigue siendo demandado actualmente:
+
+Según las estadísticas de W3Techs, PHP está en el 79% de todos los sitios web del mundo.
+
+Tan solo el 53.4% usan su versión 7 (actualmente existe una versión 8).
+
+El 30% de los sitios de todo internet están construidos con WordPress (el CMS de PHP). Este es uno de los sistemas de gestión de contenido más utilizados para crear páginas web fácilmente.
+
+Conozcamos más de PHP
+Sus siglas significan Hypertext Preprocessor (Preprocesador de Hipertexto).
+Es un lenguaje de scripting de propósito general. Puedes hacer “cualquier cosa” que te imagines con él, por ejemplo comandos para la terminal o aplicaciones de escritorio.
+Es especialmente adecuada para el desarrollo web y para emplearlo más del lado del servidor.
+Cosas que lo hacen amigable 🤗
+De alto nivel: no significa que sea complicado, sino todo lo contrario. Es un lenguaje más cercano al humano, es decir, más comprensible de leer y comprender.
+Es un lenguaje interpretado: no pasa por un proceso de compilación, sino que tenemos un pequeño programa llamado intérprete que lee y ejecuta instrucción por instrucción nuestro código.
+Es de tipado débil: no necesitamos definir tipos explícitamente, ya que PHP los define por ti.
+No usar PHP para todo 🧐
+PHP puede usarse para cualquier cosa, pero solo porque puedas escribir algo con PHP no significa que debas hacerlo.
+– Rasmus Lerdorf (Creador de PHP)
+
+Esto debido a que ya hay herramientas especializadas para cada contexto. Por ejemplo, ¿Sabías que puedes hacer Data Science con PHP? Sí, puedes hacerlo; sin embargo, ya tenemos a otro lenguaje como Python que nos brindará mayores comodidades.
+
+¿Quiénes utilizan PHP?
+Existen varias empresas y sitios web que usan este lenguaje:
+
+Facebook
+Slack
+Wikipedia
+Yahoo!
+Tumblr
+React.js nace gracias a PHP 🤯
+React surge de un experimento que realizaba Facebook con PHP. Actualmente, es uno de los frameworks para desarrollo front-end más populares.
+
+Descubre quién más lo utiliza
+Wappalyzer y BuiltWith son extensiones recomendadas para el navegador Google Chrome que te permiten saber qué tecnologías usa cierto sitio web. Tal vez alguno más que te encuentres use PHP. 😉
+
+PHP está más vivo que nunca 👊😎
+Con cada versión nueva el lenguaje ha ido mejorando. Se han agregado nuevas funcionalidades que permiten programar más cómodamente y que hacen a PHP un lenguaje más amigable.
+
+PHP es una herramienta, no una religión.
+– Rasmus Lerdorf
+
+Evita el fanatismo
+Aunque te guste mucho un lenguaje, al final del día es una herramienta más y debe estar ahí para ayudarte a resolver tus necesidades, por tanto, no deberías ser apasionado exclusivamente de una y menospreciar a otras.
+
+La gente usa PHP para resolver sus problemas.
+– Rasmus Lerdorf
+
+Contribución creada por: Martín Álvarez con los aportes de Juan Felipe Angarita López, Kevin Armando Luciano García y Rodrigo Enrique Alfaro
