@@ -1,0 +1,72 @@
+Resumen
+Cuando hablamos de sintaxis, nos referimos a las reglas que dictan cómo se debe estructurar un lenguaje para que tenga sentido lo que decimos. Por ejemplo:
+
+❌ Yo querer taco carne mucha.
+✅ Yo quiero un taco con mucha carne.
+
+Lo mismo aplica para los lenguajes de programación. Veamos un ejemplo con PHP:
+
+❌ "Mi primer programa echo>
+✅ echo “Mi primer programa”;
+
+Esto ayuda al lenguaje a entender lo que deseamos decirle.
+
+La etiqueta de apertura
+Lo más básico que debes de saber es que siempre debes poner la etiqueta de apertura para indicar que vas a empezar a trabajar con PHP:
+
+<?php
+También tiene una etiqueta de cierre:
+
+<?php
+
+?>
+Esta es opcional si es que en el archivo en el cual estás programando vas a trabajar únicamente con PHP, pero si vas a combinar PHP con HTML, entonces sí será necesario usar esa etiqueta de cierre.
+
+Imprimiendo un mensaje
+Para imprimir algún mensaje en pantalla podemos usar echo:
+
+<?php
+echo "Hola mamá. Estoy programando con PHPCito";
+Es importante siempre colocar ; al final de una línea de código en PHP.
+
+Salto de línea
+Si deseamos hacer un salto de línea después de imprimir nuestro mensaje, debemos escribir \n al final de nuestro texto:
+
+<?php
+echo "Hola, mamá. Estoy programando con PHPCito \n";
+Cabe aclarar que ese salto de línea se dará si estás ejecutando tu archivo PHP desde la línea de comandos, pero si lo ejecutas desde el navegador, lo ideal es colocar la etiqueta HTML <br>:
+
+<?php
+echo "Hola, mamá. Estoy programando con PHPCito <br>";
+Concatenación
+Concatenación no es más que juntar una cosa con otra. Para esto usamos un .:
+
+<?php
+// Declaración de variables
+$nombre = "Carlos";
+$apellido = "Gómez";
+
+// Imprimiendo en consola
+echo 'El profesor de este curso de PHP se llama ' . $nombre . ' ' . $apellido . '\n';
+La ventaja de las comillas dobles
+Otra forma de concatenar es colocando las variables dentro del mensaje que quieres imprimir, pero esto solo funciona si usas comillas dobles "":
+
+<?php
+// Declaración de variables
+$nombre = "Carlos";
+$apellido = "Gómez";
+
+// Imprimiendo en consola
+echo "El profesor de este curso de PHP se llama $nombre $apellido \n";
+Sin embargo, si no se van a usar variables dentro, es preferible usar comillas simples '', pues, PHP realiza una evaluación previa del texto si se usan comillas dobles.
+
+Concatenando operaciones matemáticas
+Por último, también podemos concatenar operaciones matemáticas:
+
+<?php
+echo "El resultado de 4 x 5 es " . 4 * 5 . "\n";
+Se recomienda colocar estas operaciones dentro de paréntesis para así tener el código más ordenado:
+
+<?php
+echo "El resultado de 4 x 5 es " . (4 * 5) . "\n";
+Contribución creada por: Martín Álvarez con el aporte de Luis Humberto Osorio Quiceno
