@@ -1,0 +1,22 @@
+Resumen
+Revisaremos y daremos respuesta al reto propuesto en la clase Operadores lógicos: ¿qué son las tablas de verdad?.
+
+<?php
+// Suponiendo estas variables
+$es_un_gato_grande = true;
+$le_gusta_comer = true;
+$sabe_volar = false;
+$tiene_2_patas = false;
+
+// ¿Cuál es el resultado?
+$es_un_gato_grande && $le_gusta_comer # 1: true
+$es_un_gato_grande || $sabe_volar # 2: true
+$sabe_volar || $tiene_2_patas # 3: false
+!$le_gusta_comer # 4: false
+!$le_gusta_comer || $es_un_gato_grande # 5: true
+Ambas variables son de valor true y el operador empleado es && o and, por tanto, la respuesta será Verdadera o true.
+Es true porque al usar el operador or o || basta que uno de los valores a evaluar sea verdadero (true) para que el resultado también lo sea.
+Cuando evaluamos con el operador OR y todas las afirmaciones en cuestión son falsas, el resultado será falso (false).
+La negación de un valor verdadero (true) siempre será falso (false).
+Observamos que la variable $es_un_gato_grande es de valor true y además vemos que se está evaluando con el operador lógico O (or o ||) entonces al tener al menos un valor verdadero ($es_un_gato_grande = true) el resultado de la evaluación será true.
+Contribución creada por: Martín Álvarez
