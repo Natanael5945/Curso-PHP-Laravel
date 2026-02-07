@@ -7,7 +7,7 @@ $archivado = true; // Nueva variable para indicar si el curso está archivado si
 $estado = $archivado ? "archivado" : "activo"; // Operador ternario para asignar el estado del curso
 $nivel_curso = "Avanzado"; // Nueva variable para el nivel del curso
 
-//Etiquetas en un arreglo
+//Etiquetas en un arr eglo
 $tags = [
     "PHP", // $tags[0], posición 0
     "HTML", // $tags[1], posición 1
