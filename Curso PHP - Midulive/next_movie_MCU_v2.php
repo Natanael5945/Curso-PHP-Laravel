@@ -1,12 +1,9 @@
 <?php 
-declare(strict_types=1);
 
-const API_URL = "https://www.whenisthenextmcufilm.com/api";
-//una alternativa seria utilizar file_get_contents() para hacer la petición a la API, pero esta función no es tan flexible como cURL y puede no funcionar en algunos servidores debido a restricciones de seguridad o configuraciones de PHP. Además, cURL ofrece más opciones y control sobre la petición, como la posibilidad de establecer encabezados personalizados, manejar cookies, seguir redirecciones, entre otras cosas. Por lo tanto, aunque file_get_contents() puede ser una opción más sencilla para hacer peticiones HTTP, cURL es generalmente recomendado para aplicaciones más complejas o que requieren mayor control sobre las peticiones.
-$result = file_get_contents(API_URL); //si solo quieres hacer un Get de una API, cURL te permite hacerlo de una forma mas sencilla, pero si quieres hacer peticiones mas complejas, como POST, PUT, DELETE, etc. cURL es la mejor opción.
+require 'function.php'; 
 
-
-$data = json_decode($result, true); //Decodificar el JSON recibido en un array asociativo de PHP
+$data = get_data(API_URL); //Obtener los datos de la API utilizando la función get_data() y almacenarlos en la variable $data
+$untilmessage = get_until_message($data["days_until"]); //Obtener el mensaje de días restantes utilizando la función get_until_message() y almacenarlo en la variable $untilmessage
 
 //var_dump($data); //Imprimir el resultado para verificar que se ha recibido correctamente
 ?>
@@ -37,7 +34,7 @@ $data = json_decode($result, true); //Decodificar el JSON recibido en un array a
         <img src="<?= $data["poster_url"]?>" width="300" alt="Poster de <?= $data["title"]?>" style = "Border-radius: 16px;">
     </section>
     <hgroup>
-        <h3><?= $data["title"]; ?> se estrena en <?= $data["days_until"]; ?> días</h3>
+        <h3><?= $data["title"]; ?> - <?= $untilmessage ?></h3>
         <p>Fecha de estreno: <?= $data["release_date"]; ?></p>
         <p>La siguiente es: <?= $data["following_production"]["title"] ?></p>
     </hgroup>
@@ -65,4 +62,5 @@ $data = json_decode($result, true); //Decodificar el JSON recibido en un array a
         display: flex;
         justify-content: center;
     }
+
 </style>
